@@ -1,0 +1,70 @@
+CRITICAL - 2024-05-04 01:21:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "view/form_login.php"
+[Method: GET, Route: auth/login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view/form_login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('view/form_login', [], true)
+ 3 APPPATH\Controllers\Auth.php(12): view('view/form_login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 02:05:51 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: auth/login]
+in APPPATH\Controllers\Auth.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8.1\\htdocs\\oba\\app\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 02:06:03 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: auth/login]
+in APPPATH\Controllers\Auth.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8.1\\htdocs\\oba\\app\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 03:06:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/side_menu.php"
+[Method: GET, Route: main]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/side_menu.php')
+ 2 SYSTEMPATH\View\View.php(484): CodeIgniter\View\View->render('partials/side_menu', null, true)
+ 3 APPPATH\Views\layouts\layout_main.php(41): CodeIgniter\View\View->include('partials/side_menu')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp8.1\\htdocs\\oba\\app\\Views\\layouts\\layout_main.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/layout_main', [], true)
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('main/index', [], true)
+ 8 APPPATH\Controllers\Main.php(13): view('main/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 03:11:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/partials/navbar_main.php"
+[Method: GET, Route: main]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/partials/navbar_main.php')
+ 2 SYSTEMPATH\View\View.php(484): CodeIgniter\View\View->render('layouts/partials/navbar_main', null, true)
+ 3 APPPATH\Views\layouts\layout_main.php(36): CodeIgniter\View\View->include('layouts/partials/navbar_main')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp8.1\\htdocs\\oba\\app\\Views\\layouts\\layout_main.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/layout_main', [], true)
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('main/index', [], true)
+ 8 APPPATH\Controllers\Main.php(13): view('main/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
